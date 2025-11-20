@@ -1,0 +1,40 @@
+# 通用
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Codex / 工具生成文件
+.codex/
+verification.md
+
+# Python / uv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.env
+.uv-cache/
+.pytest_cache/
+.coverage
+
+# 后端运行时数据与数据库
+cover_webapp_backend/src/cover_webapp_backend/data/cover_webapp.db
+cover_webapp_backend/src/cover_webapp_backend/data/uploads/
+cover_webapp_backend/src/cover_webapp_backend/data/static/masks/
+cover_webapp_backend/src/cover_webapp_backend/data/static/thumbs/
+backend.log
+
+# 前端 Node / Vite
+webapp/node_modules/
+webapp/dist/
+webapp/.vite/
+frontend.log
+
