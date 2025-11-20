@@ -9,3 +9,4 @@
 [2025-11-20] 保存记录增强：后端为每次识别生成原图缩略图（static/thumbs），/api/analyses/saved 返回 thumb_url；前端历史列表展示小预览图，并在点击记录时同时展示该缩略图。
 [2025-11-20] 调整缩略图样式：为历史记录中的 .history-thumb 设置 56x56 固定尺寸和圆角边框，避免缩略图过大影响列表布局。
 [2025-11-20] 新增一键部署脚本 deploy_quick.sh：使用 uv 启动后端、使用 Vite preview 启动前端，便于在服务器上快速跑通。
+[2025-11-20] 新增 stop.sh 与 restart.sh：stop.sh 使用 pkill 停止 uv 后端与 Vite preview 前端；restart.sh 先 stop 再执行 deploy_quick.sh 实现一键重启。
