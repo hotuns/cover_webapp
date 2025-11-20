@@ -10,3 +10,4 @@
 [2025-11-20] 调整缩略图样式：为历史记录中的 .history-thumb 设置 56x56 固定尺寸和圆角边框，避免缩略图过大影响列表布局。
 [2025-11-20] 新增一键部署脚本 deploy_quick.sh：使用 uv 启动后端、使用 Vite preview 启动前端，便于在服务器上快速跑通。
 [2025-11-20] 新增 stop.sh 与 restart.sh：stop.sh 使用 pkill 停止 uv 后端与 Vite preview 前端；restart.sh 先 stop 再执行 deploy_quick.sh 实现一键重启。
+[2025-11-20] 生成 PWA 图标：使用 Python+Pillow 在 webapp/public/icons 下生成 icon-192.png 和 icon-512.png，供 manifest.webmanifest 引用。

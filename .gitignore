@@ -6,7 +6,7 @@ Thumbs.db
 *.log
 
 # Codex / 工具生成文件
-.codex/
+# .codex/
 verification.md
 
 # Python / uv
